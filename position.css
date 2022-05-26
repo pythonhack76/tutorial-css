@@ -19,7 +19,7 @@ body {
     width: 75vw;
     height: 85vh;
     margin: 40px auto; 
-    position: relative; 
+    position: relative;
 }
 
 .inner-container {
@@ -43,10 +43,26 @@ body {
     position: absolute;
     top: 0;
     left: 0; 
+    z-index: 0;
 }
 
 .relative {
     background-color: #f00;
     position: relative; 
+    top: 300px;
+
+
+}
+
+.fixed {
+    background-color: #0f0;
+    position: fixed;
+    top: 100px;
+}
+
+.sticky {
+    background-color: #000;
+    position: sticky;
+    top: 0;
 }
 
