@@ -69,6 +69,8 @@ body {
 /* le cose possono scomparire ! */
 
 
+html { scroll-behavior: smooth;}
+
 section {
     height: 100vh;
 
